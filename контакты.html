@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="контакты.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <!-- Шапка -->
+            <div class="logo">
+                <img class="asmer" src="Человечек квадрат.jpg" alt="">
+            </div>
+
+            <!-- Меню сайта -->
+            <nav class="nav">
+                <ul class="ul">
+                    <li><a class="страницы" href="index.html">Главное</a></li>
+                    <li><a class="страницы" href="Новости.html">Новости</a></li>
+                    <li><a class="страницы1" href="Сборная Нижнего Новгорода.html">Сборная Нижегородской области</a></li>
+                    <li><a class="страницы" href="Правила.html">Правила сквоша</a></li>
+                    <li><a class="страницы" href="Тренера.html">Тренеры</a></li>
+                    <li><a class="страницы" href="Документы.html">Документы</a></li>
+                    <li><a class="страницы" href="контакты.html">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <!-- Иконка бургерменю -->
+            <div class="burger">
+                <span></span>
+            </div>
+        </header>
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+    </script>
+    <form class="Form" method="post" action="https://formsubmit.co/Nikolaenko.mariy@mail.ru">
+        <h1 class="Form-title">Отправить письмо в федерацию</h1>
+        <input type="text" class="form-fild" required placeholder="Имя" name="name">
+        <label class="form-label">
+            <input class="form-fild" required type="text" name="login" placeholder="Фамилия">
+        </label>
+        <label class="email">
+            <input class="form-fild" type="text" name="parol" placeholder="Почта">
+        </label>
+      <label class="form-label">
+        <textarea class="form-fild" name="massage" placeholder="Введите сообщение..." required></textarea>
+    </label>
+          <button type="submit" class="form-btn">Отправить</button>
+    </form>
+    <footer>
+        <div class="footer">
+            <ul class="кнопка1" id="кноп"><a class="кнопка" href="контакты.html">Написать в федерацию</a></ul>
+            <ul class="кнопка2" id="кноп"><a class="кнопка" href="tel:+78314242000">Позвонить в клуб Gorky Squash</a></ul>
+            <ul class="кнопка3" id="кноп"><a class="кнопка" target="_blank" href="https://t.me/Romaronio">Создать свой сайт</a></ul>   
+        </div>
+            <p class="pon"><center>Адрес: Россия,
+            г. Нижний Новгород,
+            Университетский пер. 4
+            С/К "Динамо"</center></p>
+        </footer>
+</body>
+</html>
