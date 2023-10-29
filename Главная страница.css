@@ -291,7 +291,7 @@ text-decoration: none;
     padding: 5px;
     text-align: center;
 }
-@media (max-width: 390px) {
+@media (max-width: 395px) {
     .кнопка {
         font-size: 14px;
     }
