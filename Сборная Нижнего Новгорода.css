@@ -223,4 +223,9 @@ body {
     margin-right: 10px;
     font-size: 17px;
 }
-
+@media (max-width: 404px){
+    #дев13 {
+      width: 120px;
+      height: 160px;
+    }
+}

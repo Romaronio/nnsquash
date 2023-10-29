@@ -169,6 +169,7 @@ body {
     background-attachment: fixed;
     background: url(0001.jpg);
 }
+
 .Form {
     display: block;
     height: 560px;
@@ -179,13 +180,15 @@ body {
     background: rgba(255, 164, 60, 0.521);
     width: 86%;
     border-radius: 30px;
-    padding: 30px 40px ;
-    
+    padding: 30px 40px;
+
 }
+
 .Form-title {
     text-align: center;
     margin-bottom: 50px;
 }
+
 .form-fild {
     margin-bottom: 25px;
     width: 100%;
@@ -196,8 +199,9 @@ body {
     padding-left: 15px;
     outline: none;
 }
+
 .form-fild:focus {
-border: 2px solid #bb5603;
+    border: 2px solid #bb5603;
 }
 
 
@@ -208,6 +212,7 @@ textarea.form-fild {
     height: 80px;
     margin-bottom: 20px;
 }
+
 .form-btn {
     width: 100%;
     padding: 15px;
@@ -219,6 +224,7 @@ textarea.form-fild {
     text-transform: uppercase;
     line-height: 10px;
 }
+
 footer {
     border: 1px solid black;
     border-radius: 20px 20px 0 0;
@@ -229,25 +235,29 @@ footer {
     margin-top: 20px;
     margin-bottom: 0;
 }
+
 .footer {
     margin-bottom: 5px;
     margin-top: 10px;
     display: flex;
 }
+
 .кнопка {
     color: #ece2e2;
     margin-bottom: 5px;
     padding: 2px;
     text-decoration: none;
 }
+
 #кноп:hover {
     background-color: rgba(66, 199, 95, 0.822);
-    color:#000000;
+    color: #000000;
     margin-left: 8px;
     margin-top: 5px;
     margin-bottom: -5px;
     transition: 0.5s;
 }
+
 .кнопка1 {
     border: 1px solid black;
     background: #d12d10;
@@ -260,6 +270,7 @@ footer {
     padding-top: 5px;
     text-align: center;
 }
+
 .кнопка2 {
     border: 1px solid black;
     background: #d12d10;
@@ -271,6 +282,7 @@ footer {
     padding: 5px;
     text-align: center;
 }
+
 .кнопка3 {
     border: 1px solid black;
     background: #d12d10;
@@ -281,4 +293,21 @@ footer {
     margin-left: 6px;
     padding: 5px;
     text-align: center;
+}
+
+@media (max-width: 412px) {
+    .кнопка {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 372px) {
+    .кнопка {
+        font-size: 13px;
+    }
+}
+@media (max-width: 353px) {
+    .кнопка {
+        font-size: 12px;
+    }
 }
