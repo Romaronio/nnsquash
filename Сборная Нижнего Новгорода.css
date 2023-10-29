@@ -176,8 +176,9 @@ body {
 }
 .девушки_13 {
     background: #ffc955ce;
+    border: 1px solid #000000;
     border-radius: 20px;
-    margin: 10px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
     padding-top: 5px;
     padding-bottom: 10px;
     margin-left: 20px;
@@ -225,7 +226,27 @@ body {
 }
 @media (max-width: 404px){
     #дев13 {
-      width: 120px;
-      height: 160px;
+        margin-left: -15px;
+        margin-right: -15px ;
+      width: 140px;
+      height: 180px;
+    }
+    .имя {
+        display: block;
+        width: 140px;
+    }
+}
+@media (max-width: 366px){
+    #дев13 {
+        margin-left: -1px;
+        margin-right: -1px ;
+        width: 120px;
+        height: 160px;
+    }
+    .имя {
+        width: 130px;
+    }
+    .заголовок {
+        width: 300px;
     }
 }
