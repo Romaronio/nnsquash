@@ -216,4 +216,8 @@ div > p {
     margin-bottom: 15px;
     background: #ffc955ce
 }
-
+@media (max-width: 380px){
+    .Маришка {
+        height: 170px;
+    }
+}

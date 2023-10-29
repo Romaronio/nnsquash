@@ -291,8 +291,22 @@ text-decoration: none;
     padding: 5px;
     text-align: center;
 }
-
-
+@media (max-width: 390px) {
+    .кнопка {
+        font-size: 14px;
+    }
+    }
+    @media (max-width: 362px) {
+        .кнопка {
+            font-size: 13px;
+        }
+        }
+        @media (max-width: 345px) {
+            .кнопка {
+                font-size: 12px;
+            }
+            }
+    
 
 
 
