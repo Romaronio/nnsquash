@@ -251,7 +251,7 @@ padding: 2px;
 text-decoration: none;
 }
 #кноп:hover {
-    background: rgb(0, 158, 34);
+    background: rgb(1, 161, 36);
     color: #000000;
     margin-left: 8px;
     margin-top: 5px;
@@ -305,8 +305,7 @@ text-decoration: none;
             .кнопка {
                 font-size: 12px;
             }
-            }
-             
+            }   
     
 
 
