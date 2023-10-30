@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .wrapper {
     flex-grow: 1;
 }
@@ -63,10 +64,12 @@ nav li a {
     font-size: 28px;
     text-decoration: none;
 }
+
 nav li a:hover {
     background: #e4760f;
     color: rgb(44, 44, 44)
 }
+
 .burger {
     display: none;
     position: relative;
@@ -191,6 +194,7 @@ body {
     font-family: Cormorant SC;
     line-height: 35px;
 }
+
 .Best {
     text-align: justify;
     margin-left: 10px;
@@ -198,6 +202,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .Cool {
     border: 2px solid black;
     border-radius: 17px;
@@ -206,9 +211,10 @@ body {
     margin-right: 20px;
     background: #e4ad5ac9;
 }
+
 .Маришка {
     justify-content: right;
-    border: 0.5px solid rgb(43, 42, 42);
+    border: 2px solid rgb(43, 42, 42);
     border-radius: 10px;
     margin-top: 10px;
     margin-right: 10px;
@@ -225,11 +231,13 @@ body {
     margin-left: 15px;
     margin-bottom: 5px;
 }
+
 .М {
     display: block;
     margin-left: 20px;
     margin-bottom: 5px;
 }
+
 footer {
     border: 1px solid black;
     border-radius: 10px 10px 0 0;
@@ -239,24 +247,28 @@ footer {
     margin-top: 20px;
     margin-bottom: 0;
 }
+
 .footer {
     margin-bottom: 5px;
     margin-top: 10px;
     display: flex;
 }
+
 .кнопка {
-color:#ece2e2;
-margin-bottom: 5px;
-padding: 2px;
-text-decoration: none;
+    color: #ece2e2;
+    margin-bottom: 5px;
+    padding: 2px;
+    text-decoration: none;
 }
+
 #кноп:hover {
     background: rgb(1, 161, 36);
     color: #000000;
     margin-left: 8px;
     margin-top: 5px;
-    transition: 0.5s;
+    transition: 1s;
 }
+
 .кнопка1 {
     border: 1px solid black;
     background: #d12d10;
@@ -269,6 +281,7 @@ text-decoration: none;
     padding-top: 5px;
     text-align: center;
 }
+
 .кнопка2 {
     border: 1px solid black;
     background: #d12d10;
@@ -280,6 +293,7 @@ text-decoration: none;
     padding: 5px;
     text-align: center;
 }
+
 .кнопка3 {
     border: 1px solid black;
     background: #d12d10;
@@ -291,23 +305,21 @@ text-decoration: none;
     padding: 5px;
     text-align: center;
 }
+
 @media (max-width: 395px) {
     .кнопка {
         font-size: 14px;
     }
+}
+
+@media (max-width: 362px) {
+    .кнопка {
+        font-size: 13px;
     }
-    @media (max-width: 362px) {
-        .кнопка {
-            font-size: 13px;
-        }
-        }
-        @media (max-width: 345px) {
-            .кнопка {
-                font-size: 12px;
-            }
-            }   
-    
+}
 
-
-
-
+@media (max-width: 345px) {
+    .кнопка {
+        font-size: 12px;
+    }
+}
