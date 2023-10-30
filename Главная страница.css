@@ -257,9 +257,20 @@ footer {
 .кнопка {
     color: #ece2e2;
     margin-bottom: 5px;
+    font-size: 14px;
     padding: 2px;
     text-decoration: none;
 }
+@media (max-width: 380px){
+ .кнопка{
+    font-size: 13px;
+ }
+}
+@media (max-width: 346px){
+    .кнопка{
+       font-size: 12px;
+    }
+   }
 
 #кноп:hover {
     background: rgb(1, 161, 36);
@@ -304,22 +315,4 @@ footer {
     margin-left: 6px;
     padding: 5px;
     text-align: center;
-}
-
-@media (max-width: 395px) {
-    .кнопка {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 362px) {
-    .кнопка {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 345px) {
-    .кнопка {
-        font-size: 12px;
-    }
 }
