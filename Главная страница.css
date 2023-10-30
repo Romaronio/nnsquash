@@ -261,17 +261,6 @@ footer {
     padding: 2px;
     text-decoration: none;
 }
-@media (max-width: 380px){
- .кнопка{
-    font-size: 13px;
- }
-}
-@media (max-width: 346px){
-    .кнопка{
-       font-size: 12px;
-    }
-   }
-
 #кноп:hover {
     background: rgb(1, 161, 36);
     color: #000000;
