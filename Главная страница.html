@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Нижегородская федерация сквоша</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Главная страница.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <!-- Шапка -->
+            <div class="logo">
+                <img class="asmer" src="Человечек квадрат.jpg" alt="">
+            </div>
+
+            <!-- Меню сайта -->
+            <nav class="nav">
+                <ul class="ul">
+                    <li><a class="страницы" href="index.html">Главное</a></li>
+                    <li><a class="страницы" href="Главная страница.html">Задачи федерации</a></li>
+                    <li><a class="страницы" href="Новости.html">Новости</a></li>
+                    <li><a class="страницы1" href="Сборная Нижнего Новгорода.html">Сборная Нижегородской области</a></li>
+                    <li><a class="страницы" href="Правила.html">Правила сквоша</a></li>
+                    <li><a class="страницы" href="Тренера.html">Тренеры</a></li>
+                    <li><a class="страницы" href="Устав_федерация_сквош_новая_редакция_1.docx">Устав федерации</a></li>
+                    <li><a class="страницы" href="контакты.html">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <!-- Иконка бургерменю -->
+            <div class="burger">
+                <span></span>
+            </div>
+    </div>
+    <script src="bootstrap.bundle.min.js">
+        document.querySelector('.burger').addEventListener('click', function () {
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        })
+    </script>
+    </header>
+    <section class="about">
+        <div class="conteiner">
+            <div class="row">
+                <div class="col-xl-6 col-md-6 col-sm-12 col-12">
+                    <div class="Dostos">
+                        <h1 class="Задачи">Основные задачи федерации</h1>
+                        <p class="p">•Участие и содействие в организации различных соревнований по сквошу<br>
+                            •Популяризация сквоша в Нижнем Новогороде<br>
+                            •Развитие юношеского сквоша<br>
+                            •Содействие юниорам в выступлении на всероссийских и международных турнирах<br>
+                            •Привлечение молодежи к регулярным тренировкам по сквошу<br>
+                            •Оказание финансовой поддержки проектам по развитию сквоша<br>
+                            •Пропаганда достижений отечественного спорта
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-sm-12 col-12">
+                    <h1 class="НМЕ">Президент Нижегородской федерации сквоша:</h1>
+                    <div class="Cool">
+                        <img class="Маришка" src="photo_2023-10-20_20-46-39.jpg" alt="">
+                        <b id="ver">Николаенко Мария Евгеньевна</b>
+                        <p class="Best">
+                            Президент федерации сквоша Нижегородской области с 2014 года. За последние 9 лет федерацией
+                            проведено
+                            более 30 турниров, включая такие как Юниорская серия и Russian junior open. Особое внимание
+                            уделено
+                            спортивным разрядам: федерацией выдано звание 1 мастера спорта, 6 - канидидатов в мастера
+                            спорта
+                            и 7
+                            первых взрослых разрядов.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="conteiner">
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                    <div class="footer">
+                        <ul class="кнопка1" id="кноп"><a class="кнопка" href="контакты.html">Написать в федерацию</a>
+                        </ul>
+                        <ul class="кнопка2" id="кноп"><a class="кнопка" href="tel:+78314242000">Позвонить в клуб Gorky
+                                Squash</a>
+                        </ul>
+                        <ul class="кнопка3" id="кноп"><a class="кнопка" target="_blank"
+                                href="https://t.me/Romaronio">Создать свой
+                                сайт</a></ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                    <p class="Adres">
+                        <center>Адрес: Россия,
+                            г. Нижний Новгород,
+                            Университетский пер. 4
+                            С/К "Динамо"</center>
+                    </p>
+                </div>
+            </div>
+    </footer>
+</body>
+
+</html>

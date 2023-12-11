@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Klee+One:wght@400;600&family=Kosugi+Maru&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Klee+One:wght@400;600&family=Kosugi+Maru&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rampart+One&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --color1: #e4ad5ac9;
 }
 
 .wrapper {
@@ -42,28 +49,36 @@
 
 .nav {
     display: flex;
-    width: 700px;
-    padding: 0 40px;
+    width: 100%;
+    padding: 0 0px;
 }
 
 .nav ul {
-    width: 2фф0px;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 nav li a {
+    display: block;
+    text-align: center;
     color: #000000;
     border: 0px solid black;
     border-radius: 30px;
-    padding: 10px;
-    font-size: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: -10px;
+    font-size: 25px;
     text-decoration: none;
 }
 
-nav li a:hover {
+nav li:hover {
+    border-radius: 15px;
     background: #e4760f;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
     color: rgb(44, 44, 44)
 }
 
@@ -165,31 +180,35 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .заголовок {
     display: block;
     font-size: 25px;
     padding-top: 15px;
     padding-bottom: 0px;
 }
+
 .сборная {
     text-align: center;
 }
+
 .девушки_13 {
     background: #ffc955ce;
-    border: 1px solid #000000;
     border-radius: 20px;
-    margin: 20px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     padding-top: 5px;
     padding-bottom: 10px;
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .девушки_113 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 #дев13 {
     width: 140px;
     height: 180px;
@@ -200,53 +219,72 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .имя {
     text-align: center;
     justify-content: center;
 }
+
 .mar {
     text-align: center;
     font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .mara {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 #валя {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 17px;
 }
+
 #коля {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 17px;
 }
-@media (max-width: 404px){
+
+@media (min-width: 900px) {
     #дев13 {
-        margin-left: -15px;
-        margin-right: -15px ;
-      width: 140px;
-      height: 180px;
+        margin: 20px;
+        width: 200px;
+        height: 270px;
     }
-    .имя {
-        display: block;
-        width: 140px;
+
+    .девушки_134 {
+        width: 800px;
+        background: #ffc955ce;
+        border-radius: 20px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        margin: 0 auto;
+        margin-top: 20px;
     }
-}
-@media (max-width: 366px){
-    #дев13 {
-        margin-left: -1px;
-        margin-right: -1px ;
-        width: 120px;
-        height: 160px;
+
+    #Мужики {
+        width: 220px;
+        height: 280px;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-decoration: none;
+        margin-top: 15px;
+        margin-left: 12px;
+        margin-right: 12px;
     }
-    .имя {
-        width: 130px;
-    }
-    .заголовок {
-        width: 300px;
+    .MAX {
+        background:#ffc955ce;
+        width: 500px;
+        height: 400px;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-decoration: none;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 }
