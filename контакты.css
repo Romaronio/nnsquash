@@ -175,7 +175,7 @@ nav li:hover {
 }
 
 /* все меню кончилось*/
-@media (max-wigth: 900px) {
+@media (max-width: 900px) {
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -295,6 +295,7 @@ footer {
     padding: 5px;
     text-align: center;
 }
+
 @media (min-width: 901px) {
     body {
         background: url(5e89a25842076238b475038bb713b0b7.jpg);
