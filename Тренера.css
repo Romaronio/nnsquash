@@ -50,7 +50,7 @@
 .nav {
     display: flex;
     width: 100%;
-    padding: 0 0px;
+    padding: 0 50px 0px 0;
 }
 
 .nav ul {
@@ -69,7 +69,7 @@ nav li a {
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: -10px;
-    font-size: 25px;
+    font-size: 23px;
     text-decoration: none;
 }
 
@@ -228,7 +228,7 @@ body {
     margin-right: 10px;
     float: left;
     margin-left: 10px;
-    width: 35%;
+    width: 25%;
     height: 200px;
 }
 
@@ -255,24 +255,39 @@ div > p {
 .СМ {
     margin-left: 25px;
 }
-.Морж1 {
-    margin-top: -15px;
-}
-.Морж2 {
+
+.Морж {
     margin-bottom: 20px;
+    font-size: 23px;
 }
 .МЕ1 {
     border: 2px solid black;
     height: auto;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.685);
     border-radius: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 15px;
-    background: #ffc955ce
+    background: #ffc955ce;
+    transition: width 1.3s;
+}
+.МЕ1:hover {
+    margin-left: 3px;
+    margin-right: 3px;
 }
 .conteiner {
     margin-right: 6%;
     margin-left: 6%;
 }
+@media (max-width: 720px) {
+    div > p {
+font-size: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .Маришка  {
+        width: 40%;
+    }
+}
+
 

@@ -50,7 +50,7 @@
 .nav {
     display: flex;
     width: 100%;
-    padding: 0 50px 0px 0;
+    padding: 0;
 }
 
 .nav ul {
@@ -147,6 +147,7 @@ nav li:hover {
         position: fixed;
         height: 100%;
         width: 100%;
+        margin: 0;
         top: 0;
         bottom: 0;
         left: 0;
@@ -259,7 +260,7 @@ footer {
     margin-right: 5%;
     margin-left: 5%;
     background: hsl(0, 1%, 51%);
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 0;
 }
 
@@ -270,7 +271,7 @@ footer {
     justify-content: center;
 }
 .Adres {
-    margin-top: -20px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
 }
@@ -290,8 +291,13 @@ footer {
     margin-top: 5px;
     transition: 0.5s;
 }
+button > a {
+    color: #FAF6F2;
+    text-decoration: none;
+    padding: 0;
+}
 
-.кнопка1 {
+.кнопка {
     border: 1px solid black;
     background: #d12d10;
     box-shadow: 3px 3px 3px #f7cece91;
@@ -299,38 +305,13 @@ footer {
     border-radius: 20px;
     margin-right: 6px;
     margin-left: 6px;
-    padding: 5px;
+    padding: 5px 10px 5px 10px;
     text-align: center;
 }
-
-.кнопка2 {
-    border: 1px solid black;
-    background: #d12d10;
-    box-shadow: 3px 3px 3px #f7cece91;
-    height: 60px;
-    border-radius: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-    padding: 5px;
-    text-align: center;
-}
-
-.кнопка3 {
-    border: 1px solid black;
-    background: #d12d10;
-    box-shadow: 3px 3px 3px #f7cece91;
-    height: 60px;
-    border-radius: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-    padding: 5px;
-    text-align: center;
-}
-
-@media (max-width: 390px) {
-    .кнопка {
-        font-size: 14px;
-    }
+    @media (max-width: 450px) {
+        .кнопка {
+            font-size: 12px;
+        }
 }
 @media (min-width: 720px) {
     .Cool {
@@ -358,14 +339,5 @@ footer {
     footer {
         margin-right: 20%;
         margin-left: 20%;
-    }
-    .кнопка1 {
-        padding: 15px 5px 5px 5px;
-    }
-    .кнопка2 {
-        padding: 15px 5px 5px 5px;
-    }
-    .кнопка3 {
-        padding: 15px 5px 5px 5px;
     }
 }

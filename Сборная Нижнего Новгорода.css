@@ -50,7 +50,7 @@
 .nav {
     display: flex;
     width: 100%;
-    padding: 0 0px;
+    padding: 0 50px 0px 0;
 }
 
 .nav ul {
@@ -69,7 +69,7 @@ nav li a {
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: -10px;
-    font-size: 25px;
+    font-size: 23px;
     text-decoration: none;
 }
 
@@ -248,6 +248,34 @@ body {
     margin-right: 10px;
     font-size: 17px;
 }
+#Мужики {
+    width: 220px;
+    height: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.девушки_134 {
+    width: 90%;
+    background: #ffc955ce;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.MAX {
+    width: 90%;
+    background: #ffc955ce;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-top: 20px;  
+}
 
 @media (min-width: 900px) {
     #дев13 {
@@ -255,15 +283,24 @@ body {
         width: 200px;
         height: 270px;
     }
+    .девушки_113 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 70px;
+    }
+    
 
     .девушки_134 {
-        width: 800px;
+        width: 50%;
         background: #ffc955ce;
         border-radius: 20px;
         padding-top: 5px;
         padding-bottom: 10px;
-        margin: 0 auto;
         margin-top: 20px;
+        padding-left: -30px;
+
     }
 
     #Мужики {
