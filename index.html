@@ -62,7 +62,36 @@
         </div>
     </div>
 </div>
+<center><svg id="mySvg" width="200" height="200">
+    <circle id="outerCircle" cx="100" cy="100" r="50" fill="black" stroke="black" stroke-width="2"/>
+    <circle id="innerCircle1" cx="150" cy="100" r="3" fill="yellow"/>
+    <circle id="innerCircle2" cx="50" cy="100" r="3" fill="yellow"/>
+  </svg></center>
+  <script>
+ let angle = 0;
+let speed = 0.03;
+let radius = 12;
+let centerX = 100;
+let centerY = 100;
 
+function animate() {
+  let x1 = centerX + radius * Math.cos(angle);
+  let y1 = centerY + radius * Math.sin(angle);
+  let x2 = centerX + radius * Math.cos(angle + Math.PI);
+  let y2 = centerY + radius * Math.sin(angle + Math.PI);
+
+  document.getElementById('innerCircle1').setAttribute('cx', x1);
+  document.getElementById('innerCircle1').setAttribute('cy', y1);
+  document.getElementById('innerCircle2').setAttribute('cx', x2);
+  document.getElementById('innerCircle2').setAttribute('cy', y2);
+
+  angle += -speed;
+
+  requestAnimationFrame(animate);
+}
+
+animate();
+  </script>
 </section>
 </body>
 </html>

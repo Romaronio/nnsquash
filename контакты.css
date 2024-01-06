@@ -273,29 +273,11 @@ footer {
     padding-top: 5px;
     text-align: center;
 }
-.кнопка2 {
-    border: 1px solid black;
-    background: #d12d10;
-    box-shadow: 3px 3px 3px #000;
-    height: 50px;
-    border-radius: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-    padding: 5px;
-    text-align: center;
+@media (max-width: 450px) {
+    .кнопка {
+    font-size: 13px;
+    }
 }
-.кнопка3 {
-    border: 1px solid black;
-    background: #d12d10;
-    box-shadow: 3px 3px 3px #000;
-    height: 50px;
-    border-radius: 20px;
-    margin-right: 6px;
-    margin-left: 6px;
-    padding: 5px;
-    text-align: center;
-}
-
 @media (min-width: 901px) {
     body {
         background: url(5e89a25842076238b475038bb713b0b7.jpg);

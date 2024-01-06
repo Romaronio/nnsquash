@@ -191,6 +191,7 @@ nav li:hover {
     width: 71%;
     height: 400px;
     margin-top: 60px;
+    margin-bottom: 0;
     background: var(--color1);
     font-weight: bold;
     flex-direction: column;
