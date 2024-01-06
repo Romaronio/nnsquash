@@ -315,3 +315,19 @@ footer {
         font-size: 20px;
     }
 }
+@media (max-width: 354px) {
+    .кнопка {
+        font-size: 12px;
+        }
+}
+@media (max-width: 334px) {
+    .кнопка {
+        font-size: 11px;
+        }
+}
+@media (max-width: 314px) {
+    .кнопка {
+        font-size: 10px;
+        }
+}
+
