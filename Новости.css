@@ -253,10 +253,41 @@ body {
 
 @media (max-width: 380px) {
     .вместе {
-        width: 90%;
-        height: 170px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-left: 15px;
-    }
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 18%;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.текст {
+    text-align: center;
+}
+.Анонс1{
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 30%;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.Анонс2{
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 30%;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 }
