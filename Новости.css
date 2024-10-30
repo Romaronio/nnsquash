@@ -191,6 +191,12 @@ body {
    margin-bottom: 20px;
  background: #ffc955ce ;
 }
+.новостиФото {
+    margin-left: 6%;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
 .вместе {
     border: 1px solid black;
     display: block;
