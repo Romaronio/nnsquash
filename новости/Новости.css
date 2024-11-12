@@ -191,6 +191,18 @@ body {
    margin-bottom: 20px;
  background: #ffc955ce ;
 }
+.пер{
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 10%;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 .новостиФото {
     margin-left: 6%;
     width: 40%;
@@ -297,13 +309,12 @@ body {
     margin-bottom: 10px;
     border-radius: 10px;
 }
-
-.первеснствоНижегородскойОбласти{
+.пер{
     border: 1px solid black;
     display: block;
     margin: 0 auto;
     width: 80%;
-    height: 30%;
+    height: 10%;
     margin-top: 15px;
     margin-left: 10%;
     margin-right: 5px;
