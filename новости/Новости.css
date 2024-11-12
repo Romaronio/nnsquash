@@ -191,7 +191,7 @@ body {
    margin-bottom: 20px;
  background: #ffc955ce ;
 }
-.пер{
+.первенствоНижегородскойОбласти{
     border: 1px solid black;
     display: block;
     margin: 0 auto;
@@ -213,11 +213,12 @@ body {
     border: 1px solid black;
     display: block;
     margin: 0 auto;
-    width: 50%;
-    height: 18%;
+    width: 80%;
+    height: 10%;
     margin-top: 15px;
-    margin-left: 5px;
+    margin-left: 10%;
     margin-right: 5px;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 .текст {
@@ -309,7 +310,7 @@ body {
     margin-bottom: 10px;
     border-radius: 10px;
 }
-.пер{
+.первенствоНижегородскойОбласти{
     border: 1px solid black;
     display: block;
     margin: 0 auto;
